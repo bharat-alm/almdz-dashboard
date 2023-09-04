@@ -1,0 +1,62 @@
+/* LoginForm.css */
+
+/* Center the login form vertically and horizontally */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the form takes the full height of the viewport */
+    background-color: #f2f2f2;
+  }
+  
+  .centered-content {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+  }
+  
+  /* Add a shared style for the input with a bottom border */
+  .bottom-border {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc; /* Add a bottom border */
+    outline: none;
+  }
+  input[type='text']{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  input[type='password']{
+    margin-top: 0.5rem;
+  }
+  /* Other styles remain the same */
+  .login-button {
+    margin-top: 4rem;
+    width: 100%;
+    padding: 10px;
+    background-color: #fb8f36;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #F6AA6B;
+  }
+  .password-input {
+    position: relative;
+    display: flex;
+  }
+  
+  .password-toggle-button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
